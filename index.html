@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/50450b26b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+      span {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        margin: 6px;
+      }
+      .nav-item a:hover {
+        color: #fd8d14 !important;
+      }
+      .rounded-circle:hover{
+        background: #C4DFDF;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a href="" class="nav-link text-secondary"
+            ><small>My discount coupons</small></a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link text-secondary"
+            ><small>Make a sale</small></a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link text-secondary"><small>About us</small></a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link text-secondary"
+            ><small>Help & Support</small></a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <nav class="navbar navbar-expand-sm">
+        <!-- Brand/logo -->
+        <img
+          style="width: 80px; height: 30%;"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="Trendyol"
+        />
+        
+        <!-- Search Bar -->
+        <div class="input-group px-sm-3">
+          <input
+            class="form-control"
+            type="text"
+            placeholder="Write the product, category or brand you are looking for"
+          />
+          <i class="bi bi-search mt-sm-2 pl-2"></i>
+        </div>
+
+        <!-- Links -->
+        <ul class="navbar-nav px-4">
+          <li class="nav-item">
+            <a class="nav-link text-body px-1 d-flex" href="#">
+              <i class="fa-solid fa-user p-sm-1"></i>
+              Account
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-body px-3 d-flex" href="#">
+              <i class="fa-regular fa-heart p-sm-1"></i>
+              Favorities</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-body px-3 d-flex" href="#">
+              <i class="fa-solid fa-bag-shopping p-sm-1"></i>
+              Basket</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container px-sm-3 text-body">
+      <ul class="nav nav-pills">
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Women</small></a
+          >
+          <div class="dropdown-menu bg-light">
+            <h4 class="dropdown-header"><dt>Clothes</dt></h4>
+            <a href="#" class="dropdown-item">Dresses</a>
+            <a href="#" class="dropdown-item">T-shirt</a>
+            <a href="#" class="dropdown-item">Pants</a>
+            <h4 class="dropdown-header"><dt>Shoes</dt></h4>
+            <a href="#" class="dropdown-item">Outside</a>
+            <a href="#" class="dropdown-item">Boots</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Man</small></a
+          >
+          <div class="dropdown-menu">
+            <h4 class="dropdown-header"><dt>Clothes</dt></h4>
+            <a href="#" class="dropdown-item">Shorts</a>
+            <a href="#" class="dropdown-item">T-shirt</a>
+            <a href="#" class="dropdown-item">Pants</a>
+            <h4 class="dropdown-header"><dt>Shoes</dt></h4>
+            <a href="#" class="dropdown-item">Outside</a>
+            <a href="#" class="dropdown-item">Boots</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Mom & Kids</small></a
+          >
+          <div class="dropdown-menu">
+            <h4 class="dropdown-header"><dt>Baby</dt></h4>
+            <a href="#" class="dropdown-item">Baby Sets</a>
+            <a href="#" class="dropdown-item">T-shirt</a>
+            <a href="#" class="dropdown-item">Pants</a>
+            <h4 class="dropdown-header"><dt>Girls</dt></h4>
+            <a href="#" class="dropdown-item">Dresses</a>
+            <a href="#" class="dropdown-item">Sweatshirt</a>
+            <h4 class="dropdown-header"><dt>Boys</dt></h4>
+            <a href="#" class="dropdown-item">Pants</a>
+            <a href="#" class="dropdown-item">Sweatshirt</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Home & Furniture</small></a
+          >
+          <div class="dropdown-menu">
+            <h4 class="dropdown-header"><dt>Kitchen</dt></h4>
+            <a href="#" class="dropdown-item">Dinner Sets</a>
+            <a href="#" class="dropdown-item">Glass</a>
+            <a href="#" class="dropdown-item">Glass Sets</a>
+            <h4 class="dropdown-header"><dt>Home Textiles</dt></h4>
+            <a href="#" class="dropdown-item">Bedroom Sets</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Supermarket</small></a
+          >
+          <div class="dropdown-menu">
+            <h4 class="dropdown-header"><dt>Home & Cleaning</dt></h4>
+            <a href="#" class="dropdown-item">Laundry</a>
+            <a href="#" class="dropdown-item">Washing dishes</a>
+            <a href="#" class="dropdown-item">House Cleaning</a>
+            <h4 class="dropdown-header"><dt>Personal Care</dt></h4>
+            <a href="#" class="dropdown-item">Hair Care</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Cosmetic</small></a
+          >
+          <div class="dropdown-menu">
+            <h4 class="dropdown-header"><dt>Make Up</dt></h4>
+            <a href="#" class="dropdown-item">Brushes</a>
+            <a href="#" class="dropdown-item">Highligter</a>
+            <a href="#" class="dropdown-item">Lip Care</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small> Shoes & Bags</small></a
+          >
+          <div class="dropdown-menu">
+            <h4 class="dropdown-header"><dt>Women Shoes</dt></h4>
+            <a href="#" class="dropdown-item">Sneakers</a>
+            <a href="#" class="dropdown-item">High Heels</a>
+            <a href="#" class="dropdown-item">Day Shoe</a>
+            <h4 class="dropdown-header"><dt>Man Shoes</dt></h4>
+            <a href="#" class="dropdown-item">Sneakers</a>
+            <h4 class="dropdown-header"><dt>Women Bags</dt></h4>
+            <a href="#" class="dropdown-item">Sleeve Bag</a>
+            <a href="#" class="dropdown-item">Backpack</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Electronics</small></a
+          >
+          <div class="dropdown-menu">
+            <h4 class="dropdown-header"><dt>Household Appliances</dt></h4>
+            <a href="#" class="dropdown-item">Broom</a>
+            <a href="#" class="dropdown-item">Iron</a>
+            <a href="#" class="dropdown-item">Coffee Machine</a>
+            <h4 class="dropdown-header"><dt>Phones</dt></h4>
+            <a href="#" class="dropdown-item">Mobile Phone</a>
+            <a href="#" class="dropdown-item">Cases</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Sport</small></a
+          >
+          <div class="dropdown-menu">
+            <h4 class="dropdown-header"><dt>Sports Top Clothing</dt></h4>
+            <a href="#" class="dropdown-item">Sports T-shirt</a>
+            <a href="#" class="dropdown-item">Sweatshirt</a>
+            <h4 class="dropdown-header"><dt>Sports Underwear</dt></h4>
+            <a href="#" class="dropdown-item">Leggings</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href=""
+            class="nav-link dropdown text-body"
+            data-toggle="dropdown"
+            style="background-color: #fff"
+            href="#"
+            ><small>Bestsellers</small></a
+          >
+        </li>
+      </ul>
+    </div>
+    <hr />
+
+    <div class="container mt-sm-2">
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+      <span class="rounded-circle shadow-lg">
+        <img
+          class="img-fluid"
+          src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+          alt="nike"
+        />
+        <span class="ml-3 font-weight-bold">Nike</span>
+      </span>
+    </div>
+
+    <div class="container mt-sm-4">
+      <div class="row">
+        <div class="col-sm-4 p-3 text-center" style="background-color: #dafffb">
+          <a
+            href=""
+            class="font-weight-bold"
+            style="text-decoration: none; color: #35a29f"
+            >The Most Added To The Basket</a
+          >
+        </div>
+        <div class="col-sm-4 p-3 text-center" style="background-color: #ffd9c0">
+          <a
+            href=""
+            class="font-weight-bold"
+            style="text-decoration: none; color: #fd8d14"
+          >
+            The Most Prominent Are
+          </a>
+        </div>
+        <div class="col-sm-4 p-3 text-center" style="background-color: #ffcccc">
+          <a
+            href=""
+            class="font-weight-bold"
+            style="text-decoration: none; color: #f11a7b"
+            >! Flash Products !</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <br/><br />
+
+    <div class="container ">
+      <div class="row mt-sm-3">
+        <div class="col-4">
+          <div class="card" style="height: 250px">
+            <img
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image"
+              style="width: 25%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Nike</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+            </div>
+            <a href="#" class="btn text-white" style="background-color: #000000"
+              >Go to brand</a
+            >
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="height: 250px">
+            <img
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image"
+              style="width: 25%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Nike</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+            </div>
+            <a href="#" class="btn text-white" style="background-color: #000000"
+              >Go to brand</a
+            >
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="height: 250px">
+            <img
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image"
+              style="width: 25%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Nike</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+            </div>
+            <a href="#" class="btn text-white" style="background-color: #000000"
+              >Go to brand</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row mt-sm-3">
+        <div class="col-4">
+          <div class="card" style="height: 250px">
+            <img
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image"
+              style="width: 25%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Nike</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+            </div>
+            <a href="#" class="btn text-white" style="background-color: #000000"
+              >Go to brand</a
+            >
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="height: 250px">
+            <img
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image"
+              style="width: 25%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Nike</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+            </div>
+            <a href="#" class="btn text-white" style="background-color: #000000"
+              >Go to brand</a
+            >
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="height: 250px">
+            <img
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image"
+              style="width: 25%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Nike</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+            </div>
+            <a href="#" class="btn text-white" style="background-color: #000000"
+              >Go to brand</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-sm-4">
+      <div class="card">
+      <div class="card-header">
+      <h5>Best Sellers</h5>
+      </div>
+      <div class="container d-flex">
+        <div class="card" style="width: 13rem;">
+          <div class="card-body">
+            <img 
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image">
+            <h5 class="card-title">Nike</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Best Nike Short</h6>
+            <p class="card-text">Some quick example text </p>
+            <a href="#" class="card-link" style="color: #F3AA60;">79.99$</a>
+          </div>
+        </div>
+        <div class="card" style="width: 13rem;">
+          <div class="card-body">
+            <img 
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image">
+            <h5 class="card-title">Nike</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Best Nike Short</h6>
+            <p class="card-text">Some quick example text </p>
+            <a href="#" class="card-link" style="color: #F3AA60;">79.99$</a>
+          </div>
+        </div>
+        <div class="card" style="width: 13rem;">
+          <div class="card-body">
+            <img 
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image">
+            <h5 class="card-title">Nike</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Best Nike Short</h6>
+            <p class="card-text">Some quick example text </p>
+            <a href="#" class="card-link" style="color: #F3AA60;">79.99$</a>
+          </div>
+        </div>
+        <div class="card" style="width: 13rem;">
+          <div class="card-body">
+            <img 
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image">
+            <h5 class="card-title">Nike</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Best Nike Short</h6>
+            <p class="card-text">Some quick example text </p>
+            <a href="#" class="card-link" style="color: #F3AA60;">79.99$</a>
+          </div>
+        </div>
+        <div class="card" style="width: 13rem;">
+          <div class="card-body">
+            <img 
+              class="card-img-top"
+              src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+              alt="Card image">
+            <h5 class="card-title">Nike</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Best Nike Short</h6>
+            <p class="card-text">Some quick example text </p>
+            <a href="#" class="card-link" style="color: #F3AA60;">79.99$</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+
+
+
+  </body>
+</html>
