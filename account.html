@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/50450b26b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    
+    span {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        margin: 6px;
+      }
+      .nav-item a:hover {
+        color: #fd8d14 !important;
+      }
+      .rounded-circle:hover{
+        background: #C4DFDF;
+
+      }
+</style>
+<body>
+    
+
+
+
+    <!--Help-->
+    <div class="container">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a href="" class="nav-link text-secondary"
+              ><small>My discount coupons</small></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-secondary"
+              ><small>Make a sale</small></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-secondary"><small>About us</small></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-secondary"
+              ><small>Help & Support</small></a
+            >
+          </li>
+        </ul>
+      </div>
+  
+      <!--navbar-->
+      <div class="container">
+        <nav class="navbar navbar-expand-sm">
+          <!-- Brand/logo -->
+          <img
+            style="width: 80px; height: 30%;"
+            src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+            alt="logo"
+          />
+          
+          <!-- Search Bar -->
+          <div class="input-group px-sm-3">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Write the product, category or brand you are looking for"
+            />
+            <i class="bi bi-search mt-sm-2 pl-2"></i>
+          </div>
+  
+          <!-- Links -->
+          <ul class="navbar-nav px-4">
+            <li class="nav-item">
+              <a class="nav-link text-body px-1 d-flex" href="#">
+                <i class="fa-solid fa-user p-sm-1"></i>
+                Account
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-body px-3 d-flex" href="#">
+                <i class="fa-regular fa-heart p-sm-1"></i>
+                Favorities</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-body px-3 d-flex" href="#">
+                <i class="fa-solid fa-bag-shopping p-sm-1"></i>
+                Basket</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+  
+      <!--menu-->
+      <div class="container px-sm-3 text-body">
+        <ul class="nav nav-pills">
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Women</small></a
+            >
+            <div class="dropdown-menu bg-light">
+              <h4 class="dropdown-header"><dt>Clothes</dt></h4>
+              <a href="#" class="dropdown-item">Dresses</a>
+              <a href="#" class="dropdown-item">T-shirt</a>
+              <a href="#" class="dropdown-item">Pants</a>
+              <h4 class="dropdown-header"><dt>Shoes</dt></h4>
+              <a href="#" class="dropdown-item">Outside</a>
+              <a href="#" class="dropdown-item">Boots</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Man</small></a
+            >
+            <div class="dropdown-menu">
+              <h4 class="dropdown-header"><dt>Clothes</dt></h4>
+              <a href="#" class="dropdown-item">Shorts</a>
+              <a href="#" class="dropdown-item">T-shirt</a>
+              <a href="#" class="dropdown-item">Pants</a>
+              <h4 class="dropdown-header"><dt>Shoes</dt></h4>
+              <a href="#" class="dropdown-item">Outside</a>
+              <a href="#" class="dropdown-item">Boots</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Mom & Kids</small></a
+            >
+            <div class="dropdown-menu">
+              <h4 class="dropdown-header"><dt>Baby</dt></h4>
+              <a href="#" class="dropdown-item">Baby Sets</a>
+              <a href="#" class="dropdown-item">T-shirt</a>
+              <a href="#" class="dropdown-item">Pants</a>
+              <h4 class="dropdown-header"><dt>Girls</dt></h4>
+              <a href="#" class="dropdown-item">Dresses</a>
+              <a href="#" class="dropdown-item">Sweatshirt</a>
+              <h4 class="dropdown-header"><dt>Boys</dt></h4>
+              <a href="#" class="dropdown-item">Pants</a>
+              <a href="#" class="dropdown-item">Sweatshirt</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Home & Furniture</small></a
+            >
+            <div class="dropdown-menu">
+              <h4 class="dropdown-header"><dt>Kitchen</dt></h4>
+              <a href="#" class="dropdown-item">Dinner Sets</a>
+              <a href="#" class="dropdown-item">Glass</a>
+              <a href="#" class="dropdown-item">Glass Sets</a>
+              <h4 class="dropdown-header"><dt>Home Textiles</dt></h4>
+              <a href="#" class="dropdown-item">Bedroom Sets</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Supermarket</small></a
+            >
+            <div class="dropdown-menu">
+              <h4 class="dropdown-header"><dt>Home & Cleaning</dt></h4>
+              <a href="#" class="dropdown-item">Laundry</a>
+              <a href="#" class="dropdown-item">Washing dishes</a>
+              <a href="#" class="dropdown-item">House Cleaning</a>
+              <h4 class="dropdown-header"><dt>Personal Care</dt></h4>
+              <a href="#" class="dropdown-item">Hair Care</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Cosmetic</small></a
+            >
+            <div class="dropdown-menu">
+              <h4 class="dropdown-header"><dt>Make Up</dt></h4>
+              <a href="#" class="dropdown-item">Brushes</a>
+              <a href="#" class="dropdown-item">Highligter</a>
+              <a href="#" class="dropdown-item">Lip Care</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small> Shoes & Bags</small></a
+            >
+            <div class="dropdown-menu">
+              <h4 class="dropdown-header"><dt>Women Shoes</dt></h4>
+              <a href="#" class="dropdown-item">Sneakers</a>
+              <a href="#" class="dropdown-item">High Heels</a>
+              <a href="#" class="dropdown-item">Day Shoe</a>
+              <h4 class="dropdown-header"><dt>Man Shoes</dt></h4>
+              <a href="#" class="dropdown-item">Sneakers</a>
+              <h4 class="dropdown-header"><dt>Women Bags</dt></h4>
+              <a href="#" class="dropdown-item">Sleeve Bag</a>
+              <a href="#" class="dropdown-item">Backpack</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Electronics</small></a
+            >
+            <div class="dropdown-menu">
+              <h4 class="dropdown-header"><dt>Household Appliances</dt></h4>
+              <a href="#" class="dropdown-item">Broom</a>
+              <a href="#" class="dropdown-item">Iron</a>
+              <a href="#" class="dropdown-item">Coffee Machine</a>
+              <h4 class="dropdown-header"><dt>Phones</dt></h4>
+              <a href="#" class="dropdown-item">Mobile Phone</a>
+              <a href="#" class="dropdown-item">Cases</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Sport</small></a
+            >
+            <div class="dropdown-menu">
+              <h4 class="dropdown-header"><dt>Sports Top Clothing</dt></h4>
+              <a href="#" class="dropdown-item">Sports T-shirt</a>
+              <a href="#" class="dropdown-item">Sweatshirt</a>
+              <h4 class="dropdown-header"><dt>Sports Underwear</dt></h4>
+              <a href="#" class="dropdown-item">Leggings</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link dropdown text-body"
+              data-toggle="dropdown"
+              style="background-color: #fff"
+              href="#"
+              ><small>Bestsellers</small></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!--Main part 1 -->
+
+      <div class="container">
+        <div class="row">
+            <div class="left col-3">
+            <div class="container mt-sm-4" style="display: flex; flex-direction: column;">
+                <div class="e-mail">
+                    <div class="card" style="width: 14rem;">
+                        <div class="card-body">
+                            <p>E-mail address</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="My-orders ">
+                    <div class="card" style="width: 14rem; font-weight: 200;">
+                        <div class="card-body " >
+                          <p class="card-title font-weight-bold" style="font-size: 13px; ">My Orders</p>
+                          <hr>
+                          <a href="" style="color: #000000; ">
+                            <i class="fa-solid fa-inbox" style="color: #000000; "></i>
+                            All My Orders</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-comment" style="color: #000000;"></i>
+                            My Reviews</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+                            My Seller Messages</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-gift" style="color: #000000;"></i>
+                            Buy Again</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="forYou">
+                    <div class="card" style="width: 14rem; font-weight: 200;">
+                        <div class="card-body ">
+                          <p class="card-title font-weight-bold" style="font-size: 13px;">For You</p>
+                          <hr>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-tag" style="color: #000000;"></i>
+                            Discount Coupon</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-regular fa-clock" style="color: #000000;"></i>
+                            Things I've Looked
+                            </a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-store" style="color: #000000;"></i>
+                            Following Stores</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-regular fa-gem" style="color: #000000;"></i>
+                            Elite Packet</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="myServices">
+                    <div class="card" style="width: 14rem; font-weight: 200;">
+                        <div class="card-body ">
+                          <p class="card-title font-weight-bold" style="font-size: 13px;">My Services</p>
+                          <hr>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-inbox" style="color: #000000;"></i>
+                            Credits</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-comment" style="color: #000000;"></i>
+                            Lucky Draw</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="account-help">
+                    <div class="card" style="width: 14rem; font-weight: 200;">
+                        <div class="card-body ">
+                          <p class="card-title font-weight-bold" style="font-size: 13px;">My Account & Help</p>
+                          <hr>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-user" style="color: #000000;"></i>
+                            Account Information</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                            Address Information</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-regular fa-credit-card" style="color: #000000;"></i>
+                            Saved Credit Cards</a>
+                          <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-regular fa-bell" style="color: #000000;"></i>
+                            My Announcement Preferences</a>
+                            <br>
+                          <a href="" style="color: #000000;">
+                            <i class="fa-solid fa-question" style="color: #000000;"></i>
+                            Help</a>
+                        </div>
+                      </div>
+                </div>
+              </div>
+        </div>
+        
+        
+            <div class="right col-9">
+                <div>
+                    <h2>reklam</h2>
+                </div>
+                <div class="search-bar">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
